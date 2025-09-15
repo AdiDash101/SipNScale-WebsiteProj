@@ -8,7 +8,9 @@ Packages installed are
 
 ## Note The packages could be found via the documentations of the Pages just install it directly from the websites by searching.
 
-
+Inspired by https://www.swarm.work/candid-convos
+Potential Api's could be used
+- MapBox
 
 
 ## Getting Started
