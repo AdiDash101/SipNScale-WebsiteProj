@@ -1,4 +1,15 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Imporatant
+Packages installed are 
+- TailwindCss 
+- npm
+- ShadCn
+- FramerMotion
+
+## Note The packages could be found via the documentations of the Pages just install it directly from the websites by searching.
+
+
+
 
 ## Getting Started
 
