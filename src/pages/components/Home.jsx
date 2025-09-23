@@ -34,7 +34,7 @@ export default function Homepage() {
   return (
     <>
       <Head>
-        <title>Swarm Style Homepage</title>
+        <title>Sip N Scale</title>
         <meta name="description" content="Inspired by Swarm candid-convos" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
@@ -61,7 +61,7 @@ export default function Homepage() {
           Explore candid discussions, insights, and journeys from founders, creators, and operators who are building the future.
         </motion.p>
 
-        {/* Rotating Info (side by side like screenshot) */}
+        {/* Rotating Info */}
         <div className="mt-16 max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
           {rotatingInfo.map((item, idx) => (
             <div
@@ -75,7 +75,6 @@ export default function Homepage() {
               </h3>
               <p className="text-gray-300">{item.text}</p>
 
-              {/* Progress Bar (only for active item) (Finalized this change color soon to the theme) */}
               {activeIndex === idx && (
                 <motion.div
                   key={idx + "-bar"}
@@ -101,7 +100,12 @@ export default function Homepage() {
         </motion.div>
       </section>
 
-      {/* Featured Convos Labeling (Temporary) */}
+      {/* Company Logos Section */}
+      <section className="bg-black">
+        <CompanyLogo />
+      </section>
+
+      {/* Featured Conversations */}
       <section className="px-6 py-20 bg-white">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl font-bold text-center mb-12">Featured Conversations</h2>
