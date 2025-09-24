@@ -36,10 +36,11 @@ export default function Loader({ onFinish }) {
     );
 
     gsap.to(`.${styles.loadingPage}`, {
-      opacity: 0,
+      y: "-100%",
       display: "none",
       duration: 1.5,
       delay: 7, // keep loader on screen longer
+      ease:"power2.inOut",
       onComplete: onFinish, // tells App it's done
     });
   }, [onFinish]);

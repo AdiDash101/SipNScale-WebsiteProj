@@ -46,7 +46,7 @@ export default function Homepage() {
         <motion.h1 
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
+          transition={{ duration: 0.8, delay: 7.8 }}
           className="text-5xl font-bold max-w-4xl leading-tight"
         >
           Real conversations with <span className="text-[#FFD700]">real builders</span>
@@ -55,7 +55,7 @@ export default function Homepage() {
         <motion.p
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1, delay: 0.3 }}
+          transition={{ duration: 1, delay: 8 }}
           className="mt-6 text-lg max-w-2xl text-gray-300"
         >
           Explore candid discussions, insights, and journeys from founders, creators, and operators who are building the future.

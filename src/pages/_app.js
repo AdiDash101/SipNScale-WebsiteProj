@@ -9,14 +9,9 @@ export default function App({ Component, pageProps }) {
 
   return (
     <div className="main">
-      {loading ? (
-        <Loader onFinish={() => setLoading(false)} />
-      ) : (
-        <>
-          <Navbar />
-          <Component {...pageProps} />
-        </>
-      )}
+      {loading && <Loader onFinish={() => setLoading(false)} />}
+      <Navbar />
+      <Component {...pageProps} />
     </div>
   );
 }
