@@ -12,7 +12,7 @@ const CompanyLogo = () => {
       <div className="container mx-auto py-12 flex flex-col sm:flex-row sm:items-center items-start overflow-hidden">
         {/* Left Label */}
         <div className="w-[300px] shrink-0 px-8 text-white border-l-4 border-white bg-white/10 py-2 z-10 sm:text-base text-xl font-semibold sm:text-left mb-8 sm:mb-0 backdrop-blur-sm rounded-md">
-          Wavemakers Summit is <br /> Co-Presented by
+          Sip N Scale Sponsors <br />
         </div>
 
         {/* Smooth Marquee */}
